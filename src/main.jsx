@@ -12,6 +12,7 @@ import AllProduct from "./component/AllProduct";
 import Details from "./component/Details";
 import Munna from "./Munna";
 import Wishlist from "./Wishlist";
+import Eror from "./Eror";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -41,7 +42,7 @@ const router = createBrowserRouter([
         children: [
           { path: "", element: <Munna /> },
           { path: "/dash/munna", element: <Munna /> },
-          { path: "/dash/wish", element: <Wishlist/> },
+          { path: "/dash/wish", element: <Wishlist /> },
         ],
       },
       { path: "/smart", element: <Smart /> },
@@ -52,6 +53,9 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path:"*",element:<Eror/>
+  }
 ]);
 
 createRoot(document.getElementById("root")).render(

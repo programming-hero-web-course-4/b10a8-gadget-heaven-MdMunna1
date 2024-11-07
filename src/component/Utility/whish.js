@@ -1,8 +1,8 @@
 import toast from "react-hot-toast";
 
 //  get item
-let getItem = () => {
-  let getData = localStorage.getItem("card");
+let getItemW = () => {
+  let getData = localStorage.getItem("wish");
   if (getData) {
     let parsData = JSON.parse(getData);
     return parsData;
@@ -12,22 +12,22 @@ let getItem = () => {
 };
 //  set item
 
-let setItem = (item) => {
-  let data = getItem();
+let setItemW = (item) => {
+  let data = getItemW();
   let chak = data.find((all) => all.product_id == item.product_id);
   if (chak) {
     return toast.error("Alredy Adedd");
   }
   toast.success("Successfully created!");
   data.push(item);
-  localStorage.setItem("card", JSON.stringify(data));
+  localStorage.setItem("wish", JSON.stringify(data));
 };
 //  remove item
-let remove = (id) => {
-  let data = getItem();
+let removeW = (id) => {
+  let data = getItemW();
   let remaining = data.filter((all) => all.product_id != id);
-  localStorage.setItem("card", JSON.stringify(remaining));
+  localStorage.setItem("wish", JSON.stringify(remaining));
   toast.success("Successfully Remove!");
 };
 
-export { setItem, getItem, remove };
+export { setItemW, getItemW, removeW };

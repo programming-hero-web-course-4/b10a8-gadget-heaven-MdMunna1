@@ -3,6 +3,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { GiEternalLove } from "react-icons/gi";
 import { FaBabyCarriage } from "react-icons/fa6";
 import { setItem } from "./Utility";
+import { setItemW } from "./Utility/whish";
 
 const Details = () => {
   let data = useLoaderData();
@@ -21,7 +22,9 @@ const Details = () => {
   } = findDeta;
   function hndladdFunction(value) {
     setItem(value);
-    
+  }
+  function hendlwish(value) {
+    setItemW(value);
   }
 
   return (
@@ -88,13 +91,15 @@ const Details = () => {
               <button
                 onClick={() => {
                   hndladdFunction(findDeta);
-                
                 }}
                 className="flex py-1 rounded-lg text-white bg-[#9538E2] gap-2 items-center"
               >
                 Add To Card <FaBabyCarriage />
               </button>
-              <button className="border p-2 rounded-full">
+              <button
+                onClick={() => hendlwish(findDeta)}
+                className="border p-2 rounded-full"
+              >
                 {" "}
                 <GiEternalLove />
               </button>

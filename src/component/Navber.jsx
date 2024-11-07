@@ -1,22 +1,23 @@
-
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { GiRoyalLove } from "react-icons/gi";
 import { TbBabyCarriage } from "react-icons/tb";
 
-
-
 const Navber = () => {
-
+  let { pathname } = useLocation();
 
   return (
     <>
-      <nav className="flex justify-between items-center ">
+      <nav
+        className={`flex justify-between items-center p-4 ${
+          pathname === "/" ? "bg-[#9538E2] text-white" : "bg-white text-black"
+        }`}
+      >
         <h1 className="font-semibold text-xs sm:text-xl">Gadget Heaven</h1>
         <ul className="flex sm:flex-row flex-col sm:text-sm text-xs  gap-5">
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? "text-blue-500 font-bold" : "text-gray-700"
+              isActive ? "text-white font-bold" : "text-gray-700"
             }
           >
             Home
@@ -24,7 +25,7 @@ const Navber = () => {
           <NavLink
             to="/statik"
             className={({ isActive }) =>
-              isActive ? "text-blue-500 font-bold" : "text-gray-700"
+              isActive ? "text-[#9538E2] font-bold" : "text-gray-700"
             }
           >
             Statistics
@@ -32,7 +33,7 @@ const Navber = () => {
           <NavLink
             to="/dash"
             className={({ isActive }) =>
-              isActive ? "text-blue-500 font-bold" : "text-gray-700"
+              isActive ? "text-[#9538E2] font-bold" : "text-gray-700"
             }
           >
             Dashboard
@@ -40,7 +41,7 @@ const Navber = () => {
           <NavLink
             to="/smart"
             className={({ isActive }) =>
-              isActive ? "text-blue-500 font-bold" : "text-gray-700"
+              isActive ? "text-[#9538E2] font-bold" : "text-gray-700"
             }
           >
             Smart GZ

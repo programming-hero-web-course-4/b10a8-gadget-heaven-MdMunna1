@@ -1,8 +1,25 @@
-# React + Vite
+React Fundamental topik
+1.Daynamikali data show
+2.local storage
+3.react tostyfy
+4.react icon
+5.Outlet Component
+6.nesting routing
+7.React Route etc
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+local storage a use this project ...
 
-Currently, two official plugins are available:
+5 Features my Project.....
+1.Daynamikali data loading
+2.Cart and Wishlist Management
+3.page not refresh data change
+4.Dynamic Page Elements and Statistics
+5.Product Filtering and Sorting
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+live link:
+
+
+pdf file link:
+https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08.pdf
