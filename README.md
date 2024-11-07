@@ -19,6 +19,7 @@ local storage a use this project ...
 
 
 live link:
+https://stellular-cucurucho-07b3e6.netlify.app/
 
 
 pdf file link:
