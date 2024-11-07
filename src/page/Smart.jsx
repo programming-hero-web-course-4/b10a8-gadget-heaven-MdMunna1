@@ -1,8 +1,12 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const Smart = () => {
   return (
     <>
+    <Helmet>
+      <title>SMART GZ</title>
+    </Helmet>
       <div>
         <div className="w-full h-32 text-center pt-8">
           <h1 className="font-bold sm:text-4xl">Smart Product Section</h1>

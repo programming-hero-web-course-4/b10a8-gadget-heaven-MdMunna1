@@ -34,7 +34,10 @@ const router = createBrowserRouter([
             loader: () => fetch("../data.json"),
           },
         ],
-      },
+      },{
+        path:"*",element:<Eror/>
+      }
+      ,
       { path: "/statik", element: <Statik /> },
       {
         path: "/dash",
@@ -53,9 +56,7 @@ const router = createBrowserRouter([
       },
     ],
   },
-  {
-    path:"*",element:<Eror/>
-  }
+  
 ]);
 
 createRoot(document.getElementById("root")).render(

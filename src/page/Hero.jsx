@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Hero = () => {
   return (
     <>
-      <div className="bg-[#9538E2] relative text-center flex flex-col justify-start py-5 pb-48 gap-4">
+      <div className="bg-[#9538E2] relative text-center flex flex-col justify-start py-6 pb-48 gap-4">
         <h1 className="text-white text-4xl font-bold px-5">
           Upgrade Your Tech Accessorize with <br /> Gadget Heaven Accessories
         </h1>

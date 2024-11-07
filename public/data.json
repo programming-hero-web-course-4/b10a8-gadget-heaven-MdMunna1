@@ -13,7 +13,7 @@
         "5G connectivity"
       ],
       "availability": true,
-      "rating": 4.5
+      "rating": 3.5
     },
     {
       "product_id": "2",
@@ -52,7 +52,7 @@
       "product_title": "Wireless Charger Pad",
       "product_image": "https://i.ibb.co/ypFkLZY/Accessories1.png",
       "category": "Accessories",
-      "price": 49.99,
+      "price": 321.99,
       "description": "Fast wireless charging pad compatible with a wide range of devices.",
       "Specification": [
         "10W fast charging",
@@ -61,14 +61,14 @@
         "Universal compatibility"
       ],
       "availability": true,
-      "rating": 4.1
+      "rating": 5
     },
     {
       "product_id": "5",
       "product_title": "Tablet Pro 12",
       "product_image": "https://i.ibb.co/48nqJgN/Tablets.png",
       "category": "Tablets",
-      "price": 199.99,
+      "price": 123.99,
       "description": "A lightweight and powerful tablet perfect for work and play.",
       "Specification": [
         "12-inch Retina display",
@@ -84,7 +84,7 @@
       "product_title": "Bluetooth Speaker",
       "product_image": "https://i.ibb.co/fNQd6HH/Audio2.png",
       "category": "Audio",
-      "price": 149.99,
+      "price": 143.99,
       "description": "A portable Bluetooth speaker with high-quality sound and long battery life.",
       "Specification": [
         "360-degree sound",
@@ -100,7 +100,7 @@
       "product_title": "Gaming Mouse G5",
       "product_image": "https://i.ibb.co/cyWnxKp/Accessories2.png",
       "category": "Accessories",
-      "price": 79.99,
+      "price": 74.99,
       "description": "A responsive gaming mouse with customizable RGB lighting.",
       "Specification": [
         "Adjustable DPI up to 16,000",
@@ -116,7 +116,7 @@
       "product_title": "4K Action Camera",
       "product_image": "https://i.ibb.co/mRcTpF7/Cameras.png",
       "category": "Cameras",
-      "price": 219.99,
+      "price": 218.99,
       "description": "A compact action camera with 4K video recording and image stabilization.",
       "Specification": [
         "4K UHD video",
@@ -132,7 +132,7 @@
       "product_title": "PowerBank 20,000mAh",
       "product_image": "https://i.ibb.co/Z8RkbHd/Accessories3.png",
       "category": "Accessories",
-      "price": 339.99,
+      "price": 355.99,
       "description": "A high-capacity power bank for charging multiple devices on the go.",
       "Specification": [
         "20,000mAh capacity",
@@ -141,14 +141,14 @@
         "Compact design"
       ],
       "availability": true,
-      "rating": 4.5
+      "rating": 3
     },
     {
       "product_id": "10",
       "product_title": "Laptop Pro 15",
       "product_image": "https://i.ibb.co/2NKLKYD/laptop.png",
       "category": "Laptops",
-      "price": 1299.99,
+      "price": 1271.99,
       "description": "A powerful laptop with an impressive display and top-of-the-line performance.",
       "Specification": [
         "15.6-inch 4K display",
@@ -164,7 +164,7 @@
       "product_title": "Headphones Z",
       "product_image": "https://i.ibb.co/942d2rY/Audio1.png",
       "category": "Audio",
-      "price": 199.99,
+      "price": 192.99,
       "description": "Premium headphones with active noise cancellation and high-quality sound.",
       "Specification": [
         "Over-ear design",
@@ -180,7 +180,7 @@
       "product_title": "4K Action Camera",
       "product_image": "https://i.ibb.co/mRcTpF7/Cameras.png",
       "category": "Cameras",
-      "price": 239.99,
+      "price": 238.99,
       "description": "A compact action camera with 4K video recording and image stabilization.",
       "Specification": [
         "4K UHD video",
@@ -194,7 +194,7 @@
       "product_title": "Tablet Pro 12",
       "product_image": "https://i.ibb.co/48nqJgN/Tablets.png",
       "category": "Tablets",
-      "price": 589.99,
+      "price": 513.99,
       "description": "A lightweight and powerful tablet perfect for work and play.",
       "Specification": [
         "12-inch Retina display",
@@ -209,7 +209,7 @@
       "product_title": "Smartphone X100",
       "product_image": "https://i.ibb.co/DYhMY6n/Smartphones.png",
       "category": "Smartphones",
-      "price": 699.99,
+      "price": 692.99,
       "description": "A high-performance smartphone with advanced features and a sleek design.",
       "Specification": [
         "6.5-inch display",
@@ -224,7 +224,7 @@
       "product_title": "Laptop Pro 15",
       "product_image": "https://i.ibb.co/2NKLKYD/laptop.png",
       "category": "Laptops",
-      "price": 1299.99,
+      "price": 1298.99,
       "description": "A powerful laptop with an impressive display and top-of-the-line performance.",
       "Specification": [
         "15.6-inch 4K display",

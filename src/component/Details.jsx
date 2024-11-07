@@ -4,6 +4,7 @@ import { GiEternalLove } from "react-icons/gi";
 import { FaBabyCarriage } from "react-icons/fa6";
 import { setItem } from "./Utility";
 import { setItemW } from "./Utility/whish";
+import ReactStars from "react-rating-stars-component";
 
 const Details = () => {
   let data = useLoaderData();
@@ -56,36 +57,14 @@ const Details = () => {
               <p className="text-xs">{all}</p>
             ))}
             <h2 className="text-sm font-semibold">Rating:</h2>
-            <div className="flex items-center py-1">
-              <div className="rating text-xs">
-                <input
-                  type="radio"
-                  name="rating-2"
-                  className="mask mask-star-2 bg-orange-400"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  className="mask mask-star-2 bg-orange-400"
-                  defaultChecked
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  className="mask mask-star-2 bg-orange-400"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  className="mask mask-star-2 bg-orange-400"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  className="mask mask-star-2 bg-orange-400"
-                />
-              </div>
-              <p>{rating}</p>
+
+            <div>
+              <ReactStars
+                size={30}
+                count={5}
+                value={rating}
+                edit={false}
+              ></ReactStars>
             </div>
             <div className="flex items-center gap-2">
               <button

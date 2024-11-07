@@ -17,7 +17,7 @@ const Navber = () => {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? "text-white font-bold" : "text-gray-700"
+              isActive ? "text-white font-bold" : "text-gray-400"
             }
           >
             Home
@@ -25,7 +25,7 @@ const Navber = () => {
           <NavLink
             to="/statik"
             className={({ isActive }) =>
-              isActive ? "text-[#9538E2] font-bold" : "text-gray-700"
+              isActive ? "text-[#9538E2] font-bold" : "text-gray-400"
             }
           >
             Statistics
@@ -33,7 +33,7 @@ const Navber = () => {
           <NavLink
             to="/dash"
             className={({ isActive }) =>
-              isActive ? "text-[#9538E2] font-bold" : "text-gray-700"
+              isActive ? "text-[#9538E2] font-bold" : "text-gray-400"
             }
           >
             Dashboard
@@ -41,7 +41,7 @@ const Navber = () => {
           <NavLink
             to="/smart"
             className={({ isActive }) =>
-              isActive ? "text-[#9538E2] font-bold" : "text-gray-700"
+              isActive ? "text-[#9538E2] font-bold" : "text-gray-400"
             }
           >
             Smart GZ

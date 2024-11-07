@@ -2,12 +2,15 @@ import { NavLink, Outlet, useLoaderData } from "react-router-dom";
 import Hero from "./Hero";
 import ImgD from "./Img";
 import Bigcpmponent from "../component/Bigcpmponent";
+import { Helmet } from "react-helmet";
+
 
 const Home = () => {
   let data = useLoaderData();
 
   return (
     <>
+    <Helmet><title>HOME</title></Helmet>
       <Hero />
       <div className="relative h-60 w-9/12 mx-auto">
         <ImgD />
