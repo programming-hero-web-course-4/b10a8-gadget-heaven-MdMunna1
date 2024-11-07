@@ -1,0 +1,28 @@
+[
+    {
+      "id": "1",
+      "category_name": "Cameras"
+    },
+    {
+      "id": "2",
+      "category_name": "Smartphones"
+    },
+    {
+      "id": "3",
+      "category_name": "Laptops"
+    },
+  
+    {
+      "id": "4",
+      "category_name": "Accessories"
+    },
+    {
+      "id": "5",
+      "category_name": "Audio"
+    },
+    {
+      "id": "6",
+      "category_name": "Tablets"
+    }
+  ]
+  
